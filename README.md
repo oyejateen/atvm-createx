@@ -179,8 +179,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## **Connect with Us**  
 
 Feel free to reach out with questions or suggestions:  
-
-- **Email**: your-email@example.com  
+  
 - **GitHub Issues**: [Submit an Issue](https://github.com/oyejateen/ATVM/issues)  
 
 We’d love to hear your feedback and see how you use ATVM!  
