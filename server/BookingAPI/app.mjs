@@ -18,8 +18,8 @@ app.post("/book", async (req, res) => {
   try {
     // Initialize the IRCTC client
     const client = new IRCTC({
-      userID: "Jatinshrimali",
-      password: "trdKD7RjD*j*c2b",
+      userID: "",
+      password: "",
     });
 
     const bookingParams = {
@@ -69,8 +69,8 @@ app.post("/pnr_status", async (req, res) => {
   try {
     // Initialize the IRCTC client with your user ID and password
     const client = new IRCTC({
-      userID: "Jatinshrimali", // Your IRCTC user ID
-      password: "trdKD7RjD*j*c2b", // Your IRCTC password
+      userID: "", // Your IRCTC user ID
+      password: "", // Your IRCTC password
     });
 
     // Call the pnr_status function from irctc-api
@@ -92,8 +92,8 @@ app.get("/last_transaction", async (req, res) => {
   try {
     // Initialize the IRCTC client with your user ID and password
     const client = new IRCTC({
-      userID: "Jatinshrimali", // Your IRCTC user ID
-      password: "trdKD7RjD*j*c2b", // Your IRCTC password
+      userID: "", // Your IRCTC user ID
+      password: "", // Your IRCTC password
     });
 
     // Call the last_transaction function from irctc-api
